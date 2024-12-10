@@ -40,14 +40,14 @@
 
 ### js 배열 초기화 1) 대괄호 사용
 
-```
+```js
 let arr = [];
 
 arr.push(1);
 arr.push(2);
 arr.push(3);
 
-for(let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 
@@ -61,14 +61,14 @@ for(let i = 0; i < arr.length; i++) {
 
 - js 에서는 Array() 를 이용해 간단히 배열을 생성할 수 있다.
 
-```
+```js
 let arr = new Array();
 
 arr.push(1);
 arr.push(2);
 arr.push(3);
 
-for(let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 
@@ -82,7 +82,7 @@ for(let i = 0; i < arr.length; i++) {
 
 - js 의 배열은 일반적인 변수 외에도 객체를 담을 수도 있다.
 
-```
+```js
 let arr = ["Hello", 888, true];
 
 console.log(arr);
@@ -95,13 +95,13 @@ console.log(arr);
 - 원하는 값을 직접 입력하여 초기화 할 수 있다.
 - 크기가 N 인 1차원 배열을 만드는 방법은 다음과 같다.
 
-```
+```js
 // 원하는 값을 직접 입력하여 초기화
 let arr = [1, 2, 3, 4, 5];
 console.log(arr);
 
 // 하나의 값으로 초기화
-let arr2 = Array.from({length: 5}, () => 7);
+let arr2 = Array.from({ length: 5 }, () => 7);
 console.log(arr2);
 
 // 결과
@@ -113,12 +113,12 @@ console.log(arr2);
 
 - 2차원 배열이 필요할 때는 다음과 같이 원하는 값을 직접 넣어 초기화할 수 있다.
 
-```
+```js
 // 원하는 값을 직접 입력하여 초기화
 let arr1 = [
   [0, 1, 2, 3],
   [4, 5, 6, 7],
-  [8, 9, 10, 11]
+  [8, 9, 10, 11],
 ];
 
 // 결과
@@ -135,7 +135,7 @@ let arr1 = [
 - 한 줄로 2차원 배열을 초기화할 수 있다.
 - 배열의 각 원소에 킈가 5인 배열을 할당한다.
 
-```
+```js
 let arrr = Array.from(Array(4), () => new Array(5));
 console.log(arr);
 
@@ -152,11 +152,11 @@ console.log(arr);
 
 - 다음과 같이 반복문을 이용해 2차원 배열을 초기화할 수 있다.
 
-```
+```js
 // 반복문을 이용해 배열 초기화
 let arr2 = new Array(3);
-for (let i = 0; i < arr2.length; i++){
-  arr2[i] = Array.from({length: 4}, (undefined, j) => i * 4 + j);
+for (let i = 0; i < arr2.length; i++) {
+  arr2[i] = Array.from({ length: 4 }, (undefined, j) => i * 4 + j);
 }
 
 console.log(arr2);
@@ -175,9 +175,9 @@ console.log(arr2);
 - 배열이 생성된 이후에도 배열의 크기를 임의로 변경할 수 있다.
 - push() 매서드를 통해 배열의 가장 뒤쪽에 새로운 원소를 추가할 수 있다.
 
-```
-let arr = [5,6,7,8,9];
-arr.length = 8
+```js
+let arr = [5, 6, 7, 8, 9];
+arr.length = 8;
 arr[7] = 3;
 arr.push(1);
 
@@ -201,7 +201,7 @@ for (let x of arr) {
 
 - concat(): 여러 개의 배열을 이어 붙여서 합친 결과를 반환 한다. O(N)
 
-```
+```js
 let arr1 = [1, 2, 3, 4, 5];
 let arr2 = [6, 7, 8, 9, 10];
 let arr = arr1.concat(arr2, [11, 12], [13]);
@@ -213,7 +213,7 @@ console.log(arr);
 
 - slice(left, right): 특정 구간의 원소를 꺼낸 배열을 반환한다. O(N)
 
-```
+```js
 let arr = [1, 2, 3, 4, 5];
 let result = arr.slice(2, 4);
 console.log(result);
@@ -225,7 +225,7 @@ console.log(result);
 - indexOf(): 특정한 값을 가지는 원소의 첫째 인덱스를 반환한다. O(N)
 - 만약 해당하는 원소가 없는 경우 -1 을 반환한다.
 
-```
+```js
 let arr = [1, 2, 3, 4, 5];
 let result = arr.indexOf(3);
 console.log(result);

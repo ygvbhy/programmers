@@ -18,7 +18,7 @@
 
 ## JS 큐 구현하기
 
-```
+```js
 class Queue {
   constructor() {
     this.items = {};
@@ -57,7 +57,7 @@ queue.enqueue(4);
 queue.dequeue();
 
 // 먼저 들어온 순서대로 출력
-while(queue.getlength() != 0) {
+while (queue.getlength() != 0) {
   console.log(queue.dequeue());
 }
 
