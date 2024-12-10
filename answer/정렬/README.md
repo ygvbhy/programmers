@@ -11,3 +11,8 @@
 ## JS 정렬 라이브러리
 
 ## 문제 풀이
+
+[세수 정렬](https://www.acmicpc.net/problem/2752)
+[수 정렬하기](https://www.acmicpc.net/problem/2750)
+[수 정렬하기2](https://www.acmicpc.net/problem/2751)
+[K번째 수](https://www.acmicpc.net/problem/11004)
