@@ -18,3 +18,4 @@
 [K번째 수](https://www.acmicpc.net/problem/11004)
 
 [좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
