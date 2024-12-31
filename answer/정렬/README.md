@@ -21,3 +21,4 @@
 [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
 [단어 정렬](https://www.acmicpc.net/problem/1181)
 [좌표 압축](https://www.acmicpc.net/problem/18870)
+[나이순 정렬](https://www.acmicpc.net/problem/10814)
