@@ -68,3 +68,4 @@
 # 탐욕법 문제 풀이
 
 (동전 0)[https://www.acmicpc.net/problem/11047]
+(ATM)[https://www.acmicpc.net/problem/11399]
