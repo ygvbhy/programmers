@@ -75,3 +75,4 @@
 (수들의 합)[https://www.acmicpc.net/problem/1789]
 (신입 사원)[https://www.acmicpc.net/problem/1946]
 (주유소)[https://www.acmicpc.net/problem/13305]
+(회의실 배정)[https://www.acmicpc.net/problem/1931]
