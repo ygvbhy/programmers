@@ -96,3 +96,4 @@ dfs(graph, 1, visited);
 ## 문제 풀이
 
 [바이러스](https://www.acmicpc.net/problem/2606)
+[유기농 배추](https://www.acmicpc.net/problem/1012)
